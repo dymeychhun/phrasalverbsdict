@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Odor Mean Chey;
+  src: url(../font/OdorMeanChey-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: Odor Mean Chey, serif;
+}
 #feedback {
   font-size: 1.4em;
 }
@@ -34,4 +43,8 @@
 
 #def {
   margin-top: 70px;
+}
+
+.head-title {
+  background-color: #0d1460;
 }
