@@ -4,36 +4,16 @@
   font-weight: 400;
   font-style: normal;
 }
+
 body {
   font-family: Odor Mean Chey, serif;
-}
-#feedback {
-  font-size: 1.4em;
-}
-#selectable .ui-selecting {
-  background: #feca40;
-}
-#selectable .ui-selected {
-  background: #f39814;
-  color: white;
-}
-#selectable {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60%;
-}
-#selectable li {
-  margin: 3px;
-  padding: 0.4em;
-  font-size: 1.4em;
-  height: 18px;
 }
 
 .list-group-item {
   cursor: pointer;
   /* border: none !important; */
 }
+
 .active {
   background-color: var(--bs-list-group-action-active-bg) !important;
   color: var(--bs-list-group-action-active-color) !important;
