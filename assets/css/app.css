@@ -1,28 +1,41 @@
 @font-face {
   font-family: Odor Mean Chey;
   src: url(../font/OdorMeanChey-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
+}
+@font-face {
+  font-family: Poppins Regular;
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(../font/Poppins-Medium.ttf);
 }
 
 body {
-  font-family: Odor Mean Chey, serif;
+  font-family: Poppins Regular;
+}
+
+#app {
+  font-family: Poppins Regular !important;
+}
+
+#def {
+  margin-top: 70px;
+  font-family: Odor Mean Chey !important;
+}
+
+.subWord {
+  font-family: PoppinsMedium !important;
 }
 
 .list-group-item {
   cursor: pointer;
-  /* border: none !important; */
 }
 
 .active {
   background-color: var(--bs-list-group-action-active-bg) !important;
   color: var(--bs-list-group-action-active-color) !important;
   border-color: var(--bs-list-group-border-color) !important;
-  /* border: none !important; */
-}
-
-#def {
-  margin-top: 70px;
 }
 
 .head-title {

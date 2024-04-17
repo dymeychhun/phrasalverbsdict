@@ -22,7 +22,7 @@ $(document).ready(function () {
     $(this).siblings().removeClass("active");
     // console.log(def);
     $("#def").html(
-      "<h3 class='text-danger'>" +
+      "<h3 class='text-danger subWord'>" +
         word +
         "</h3>" +
         "<h4 class='text-primary'>" +
